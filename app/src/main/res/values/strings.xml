@@ -1,0 +1,37 @@
+<resources>
+
+    <string name="app_name">HealthUP</string>
+    <string name="CreateAccount">Create Account</string>
+    <string name="username">Username</string>
+    <string name="name">Name</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="SIGNUP">SIGN UP</string>
+    <string name="signUP">Sign Up</string>
+    <string name="information">Remember Password</string>
+    <string name="information2">Already Have a Account? Sign In</string>
+    <string name="SIGNIN">SIGN IN</string>
+    <string name="signIn">Sign in</string>
+    <string name="LOGIN">LOGIN</string>
+    <string name="login">Login</string>
+    <string name="HomePage">Home Page</string>
+    <string name="searching">What are you searching for?</string>
+    <string name="emailErrorText">Minimum 6 characters</string>
+    <string name="Services">Services</string>
+    <string name="Workouts">Workouts</string>
+    <string name="Diets">Diets</string>
+    <string name="Medicines">Medicines</string>
+    <string name="Memory">Memory</string>
+    <string name="Cardiology">Cardiology</string>
+    <string name="Comments">Comments</string>
+    <string name="Profile">Profile</string>
+    <string name="Historic">Historic</string>
+    <string name="ListofDoctors">List of Doctors</string>
+
+
+
+
+
+</resources>
+
+
