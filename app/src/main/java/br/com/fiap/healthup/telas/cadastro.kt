@@ -156,7 +156,7 @@ fun SignUp(navController: NavController) {
                             )
                         )
                         {
-                            OutlinedTextField(
+                            OutlinedTextField( //textfield dos dados para inserir
                                 value = username.value,
                                 onValueChange = {
                                     username.value = it
@@ -179,7 +179,7 @@ fun SignUp(navController: NavController) {
                                 },
                                 isError = erroUsername
                             )
-                            if (erroUsername) {
+                            if (erroUsername) { // se houver erro exibe a mensagem
                                 Text(
                                     text = usernameErrorText,
                                     fontSize = 12.sp,
@@ -189,7 +189,7 @@ fun SignUp(navController: NavController) {
                             }
                             Spacer(modifier = Modifier.height(16.dp))
 
-                            OutlinedTextField(
+                            OutlinedTextField( //textfield dos dados para inserir
                                 value = name.value,
                                 onValueChange = {
                                     name.value = it
@@ -211,7 +211,7 @@ fun SignUp(navController: NavController) {
                                     )
                                 }, isError = erroName
                             )
-                            if (erroName) {
+                            if (erroName) { // se houver erro exibe a mensagem
                                 Text(
                                     text = nameErrorText,
                                     fontSize = 12.sp,
@@ -220,7 +220,7 @@ fun SignUp(navController: NavController) {
                                 )
                             }
                             Spacer(modifier = Modifier.height(16.dp))
-                            OutlinedTextField(
+                            OutlinedTextField( //textfield dos dados para inserir
                                 value = email.value,
                                 onValueChange = {
                                     email.value = it
@@ -243,7 +243,7 @@ fun SignUp(navController: NavController) {
                                 },
                                 isError = erroEmail
                             )
-                            if (erroEmail) {
+                            if (erroEmail) { // se houver erro exibe a mensagem
                                 Text(
                                     text = emailErrorText,
                                     fontSize = 12.sp,
@@ -252,7 +252,7 @@ fun SignUp(navController: NavController) {
                                 )
                             }
                             Spacer(modifier = Modifier.height(16.dp))
-                            OutlinedTextField(
+                            OutlinedTextField(  //textfield dos dados para inserir
                                 value = password.value,
                                 onValueChange = {
                                     if (it.length <= tamanhoMaxSenha) password.value = it
@@ -276,7 +276,7 @@ fun SignUp(navController: NavController) {
                                 },
                                 isError = erroPassword
                             )
-                            if (erroPassword) {
+                            if (erroPassword) { // se houver erro exibe a mensagem
                                 Text(
                                     text = passwordErrorText,
                                     fontSize = 12.sp,
@@ -335,7 +335,7 @@ fun SignUp(navController: NavController) {
                             }
                             Spacer(modifier = Modifier.weight(1f))
 
-                            Button( //butão de seguir
+                            Button( //botão de seguir
                                 onClick = {
                                     // Verificando se tanto o e-mail, senha, usuário e email são válidos
                                     if ( validateUsername(username.value) && validateName(name.value) && validateEmail(email.value) && validatePassword(password.value)) {
@@ -383,7 +383,7 @@ fun SignUp(navController: NavController) {
                         textAlign = TextAlign.Center,
                     )
                 }
-                //butão para caso já tenha uma conta
+                //botão para caso já tenha uma conta
                 Button(onClick = { navController.navigate("login")},
                     modifier = Modifier.size(width = 250.dp, height = 40.dp),
                     colors = ButtonDefaults.buttonColors(

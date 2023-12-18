@@ -3,6 +3,7 @@ package br.com.fiap.healthup.telas
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -18,6 +19,7 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
@@ -74,10 +76,10 @@ fun PaginaInicial(navController: NavController) {
                     )
                 Spacer(modifier = Modifier.weight(1f)) //usei esse spacer pra deixar as duas imagens no fim com espaço flexivel
 
-                Image(
+                Image( //IMAGEM PERFIL
                     painter = painterResource(id = R.drawable.pessoa),
                     contentDescription = "Icon",
-                    modifier = Modifier.size(24.dp)
+                    modifier = Modifier.size(24.dp).clickable { navController.navigate("perfil") } //FAZENDO A NAVEGAÇÃO PARA A TELA PERFIL
                 ) //imagem pessoa do canto
 
                 Spacer(modifier = Modifier.width(8.dp))
@@ -134,15 +136,16 @@ fun PaginaInicial(navController: NavController) {
                     Column(
                         horizontalAlignment = Alignment.CenterHorizontally
                     ) {
-                        Image(
+                        Image( //IMAGEM DE WORKOUTS
                             painter = painterResource(id = R.drawable.musculacao),
                             contentDescription = "icon musculação",
                             modifier = Modifier
                                 .size(70.dp)
                                 .padding(top = 10.dp)
+                                .clickable { navController.navigate("workouts") }
                         )
                         Text(text = stringResource(id = R.string.Workouts),
-                            Modifier.padding(top = 10.dp),
+                            Modifier.clickable { navController.navigate("workouts") }.padding(top = 10.dp),
                             textAlign = TextAlign.Center,
                             color = Color(R.color.corDaLetra))
                     }
@@ -150,12 +153,13 @@ fun PaginaInicial(navController: NavController) {
                     Column(
                         horizontalAlignment = Alignment.CenterHorizontally
                     ) {
-                        Image(
+                        Image( //IMAGEM DIETAS
                             painter = painterResource(id = R.drawable.dieta),
                             contentDescription = "icon dieta",
                             modifier = Modifier
                                 .size(70.dp)
                                 .padding(top = 10.dp)
+                                .clickable { navController.navigate("diets") } //FAZENDO A NAVEGAÇÃO PARA A TELA DIETS
                         )
                         Text(
                             text = stringResource(id = R.string.Diets),
@@ -168,12 +172,13 @@ fun PaginaInicial(navController: NavController) {
                     Column(
                         horizontalAlignment = Alignment.CenterHorizontally
                     ) {
-                        Image(
+                        Image( //IMAGEM MEDICINES
                             painter = painterResource(id = R.drawable.medicamento),
                             contentDescription = "icon medicamentos",
                             modifier = Modifier
                                 .size(70.dp)
                                 .padding(top = 10.dp)
+                                .clickable { navController.navigate("medicines") } //FAZENDO A NAVEGAÇÃO PARA A TELA MEDICINES
                         )
                         Text(text = stringResource(id = R.string.Medicines),
                             textAlign = TextAlign.Center,
@@ -197,12 +202,13 @@ fun PaginaInicial(navController: NavController) {
                         Column(
                             horizontalAlignment = Alignment.CenterHorizontally
                         ) {
-                            Image(
+                            Image(  //IMAGEM MEMORY
                                 painter = painterResource(id = R.drawable.perdadememoria),
                                 contentDescription = "icon perda de memória",
                                 modifier = Modifier
                                     .size(70.dp)
                                     .padding(top = 10.dp)
+                                    .clickable { navController.navigate("memory") }
                             )
                             Text(
                                 text = stringResource(id = R.string.Memory),
@@ -215,12 +221,13 @@ fun PaginaInicial(navController: NavController) {
                         Column(
                             horizontalAlignment = Alignment.CenterHorizontally
                         ) {
-                            Image(
+                            Image( //IMAGEM CARDIOLOGY
                                 painter = painterResource(id = R.drawable.coracao),
                                 contentDescription = "icon coração",
                                 modifier = Modifier
                                     .size(70.dp)
                                     .padding(top = 10.dp)
+                                    .clickable { navController.navigate("cardiology") }
                             )
                             Text(
                                 text = stringResource(id = R.string.Cardiology),
@@ -233,18 +240,19 @@ fun PaginaInicial(navController: NavController) {
                         Column(
                             horizontalAlignment = Alignment.CenterHorizontally
                         ) {
-                            Image(
+                            Image( //IMAGEM COMENTARIOS
                                 painter = painterResource(id = R.drawable.comentarios),
                                 contentDescription = "icon comentários",
                                 modifier = Modifier
                                     .size(70.dp)
                                     .padding(top = 10.dp)
+                                    .clickable { navController.navigate("coments") }
                             )
                             Text(
                                 text = stringResource(id = R.string.Comments),
                                 textAlign = TextAlign.Center,
                                 color = Color(R.color.corDaLetra),
-                                modifier = Modifier.padding(top = 10.dp)
+                                modifier = Modifier.padding(top = 10.dp).clickable { navController.navigate("coments") }
                             )
                         }
                     }
@@ -256,18 +264,21 @@ fun PaginaInicial(navController: NavController) {
                     ) {
                         Row(
                             horizontalArrangement = Arrangement.SpaceBetween,
-                            modifier = Modifier.fillMaxWidth()
+
                         )
                         {
                             Column(
-                                horizontalAlignment = Alignment.CenterHorizontally
+                                horizontalAlignment = Alignment.CenterHorizontally,
+                                modifier = Modifier.padding(end = 16.dp) // Adicionei padding à direita para aproximar as colunas
+
                             ) {
-                                Image(
+                                Image( //IMAGEM PERFIL
                                     painter = painterResource(id = R.drawable.perfildeusuario),
                                     contentDescription = "icon perfil",
                                     modifier = Modifier
                                         .size(70.dp)
                                         .padding(top = 10.dp)
+                                        .clickable { navController.navigate("perfil") } //FAZENDO A NAVEGAÇÃO PARA A TELA PERFIL
                                 )
                                 Text(
                                     text = stringResource(id = R.string.Profile),
@@ -276,25 +287,11 @@ fun PaginaInicial(navController: NavController) {
                                     color = Color(R.color.corDaLetra)
                                 )
                             }
+                            
+
                             Column(
-                                horizontalAlignment = Alignment.CenterHorizontally
-                            ) {
-                                Image(
-                                    painter = painterResource(id = R.drawable.historico),
-                                    contentDescription = "icon historic",
-                                    modifier = Modifier
-                                        .size(70.dp)
-                                        .padding(top = 10.dp)
-                                )
-                                Text(
-                                    text = stringResource(id = R.string.Historic),
-                                    textAlign = TextAlign.Center,
-                                    color = Color(R.color.corDaLetra),
-                                    modifier = Modifier.padding(top = 10.dp, end = 5.dp)
-                                )
-                            }
-                            Column(
-                                horizontalAlignment = Alignment.CenterHorizontally
+                                horizontalAlignment = Alignment.CenterHorizontally,
+                                modifier = Modifier.padding(start = 16.dp) // Adicionei padding à esquerda para aproximar as colunas
                             ) {
                                 Image(
                                     painter = painterResource(id = R.drawable.doutor),
@@ -302,6 +299,7 @@ fun PaginaInicial(navController: NavController) {
                                     modifier = Modifier
                                         .size(70.dp)
                                         .padding(top = 10.dp)
+                                        .clickable { navController.navigate("doctorsList") }
                                 )
                                 Text(
                                     text = stringResource(id = R.string.ListofDoctors),
@@ -321,24 +319,25 @@ fun PaginaInicial(navController: NavController) {
                             .padding(top = 20.dp)
                             .background(Color(0xfff9f6f6))
                     ) {
-                        Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                            Image(
+                        /*Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                            Image( //HOME - NÃO TEM NENHUMA FUNÇÃO ATRIBUIDA
                                 painter = painterResource(id = R.drawable.homepreto),
                                 contentDescription = "Button home",
                                 modifier = Modifier
                                     .size(50.dp)
                             )
-                        }
+                        }*/
                         Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                            Image(
+                            Image( //IMAGEM ESTETOSCOPIO
                                 painter = painterResource(id = R.drawable.estetoscopio),
                                 contentDescription = "Icon estetoscopio",
                                 modifier = Modifier
                                     .size(45.dp)
+                                    .clickable { navController.navigate("doctorsList")  } // SERÁ USADO O CLICKABLE PARA IR PARA LIST OF DOCTORS
                             )
                         }
                         Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                            Button(onClick = { /* Ação do botão */ },
+                            Button(onClick = { navController.navigate("chat") }, //CHAT PARA UMA POSSIVEL CONVERSA COM ROBO
                                 modifier = Modifier
                                     .size(90.dp)) {
                                 Text(text = "Chat",
@@ -346,23 +345,23 @@ fun PaginaInicial(navController: NavController) {
                                 )
                             }
                         }
-                        Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                            Image(
+                        /*Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                            Image( //IMAGEM CALENDARIO
                                 painter = painterResource(id = R.drawable.calendariopreto),
                                 contentDescription = "Icon calendario",
                                 modifier = Modifier
                                     .size(50.dp)
                             )
-                        }
+                        }*/
                         Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                            Image(
+                            Image( //IMAGEM PERFIL
                                 painter = painterResource(id = R.drawable.perfilpreto),
                                 contentDescription = "Icon persona",
                                 modifier = Modifier
                                     .size(50.dp)
+                                    .clickable { navController.navigate("perfil") } //FAZENDO A NAVEGAÇÃO PARA A TELA PERFIL
                             )
-                            //todas essas imagens nessa seção de baixo seria pra ser um botão,
-                        // mas com a imagem dos ícones, só que não consegui fazer uma imagem ser um botão
+
                         }
                     }
                 }

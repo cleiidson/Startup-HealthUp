@@ -8,5 +8,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="corDaLetra">#E6E6E6</color>
+    <color name="corDaLetra2">#4f4f4f</color>
     <color name="colorRed">#C6302C</color>
+    <color name="colorGreen">#028001</color>
+
 </resources>

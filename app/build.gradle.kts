@@ -77,6 +77,8 @@ dependencies {
 
     // Dependência do LiveData
     implementation ("androidx.compose.runtime:runtime-livedata:1.5.1")
+
+
 }
 
 

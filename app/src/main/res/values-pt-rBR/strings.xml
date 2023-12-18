@@ -4,6 +4,7 @@
     <string name="CreateAccount">Crie uma conta</string>
     <string name="username">Nome de usuário</string>
     <string name="name">Nome</string>
+    <string name="address">Endereço</string>
     <string name="email">E-mail</string>
     <string name="password">Senha</string>
     <string name="SIGNUP">CRIAR CONTA</string>
@@ -11,6 +12,9 @@
     <string name="information">Relembrar Senha</string>
     <string name="information2">Já tem uma conta? Entre</string>
     <string name="SIGNIN">ENTRE</string>
+    <string name="ENTER">Entrar</string>
+    <string name="CANCEL">CANCELAR</string>
+    <string name="enviar">Enviar</string>
     <string name="signIn">Entre</string>
     <string name="LOGIN">LOGIN</string>
     <string name="login">Login</string>
@@ -26,7 +30,88 @@
     <string name="Comments">Comentários</string>
     <string name="Profile">Perfil</string>
     <string name="Historic">Histórico</string>
-    <string name="ListofDoctors">Lista de Doutores</string>
+    <string name="ListofDoctors">Doutores</string>
+    <string name="Aerobics_category">Aeróbicos</string>
+    <string name="Bodybuilding_category">Musculação</string>
+    <string name="Yoga_category">Yoga</string>
+    <string name="Meditation_category">Meditação</string>
+    <string name="EDIT_PROFILE">EDITAR PERFIL</string>
+    <string name="Confirm_your_username">Confirme seu nome de usuário</string>
+    <string name="Confirm_your_name">Confirme seu nome </string>
+    <string name="Confirm_your_email">Confirme seu e-mail</string>
+    <string name="Confirm_your_password">Confirme sua senha</string>
+    <string name="Confirm_your_address">Confirme seu endereço</string>
+    <string name="Data_updated_successfully">Dados atualizados!</string>
+    <string name="Nordic_DietCategory">Dieta Nórdica</string>
+    <string name="Mind_DietCategory">Dieta Mind</string>
+    <string name="Vegan_DietCategory">Dieta vegana</string>
+    <string name="Pescatarian_DietCategory">Dieta Pescatariana</string>
+    <string name="Dash_DietCategory">Dieta Dash</string>
+    <string name="Vegetarian_DietCategory">Dieta Vegetariana</string>
+    <string name="ibuprofeno">Ibuprofeno Legrand 100mg/mL, caixa com 1 frasco gotejador com 20mL</string>
+    <string name="paracetamol">Paracetamol 750mg 20 comp genérico</string>
+    <string name="flaveno">Flavenos 500mg com 30 comprimidos</string>
+    <string name="tiamina">vitamina b1 tiamina 60 caps de 500 mg unilife</string>
+    <string name="enterogermina">30comp Suplemento Vitamina Mineral Enterogermina CDZSE Imunidade Lavitan</string>
+    <string name="aspirina">Provita - pack de vitamina C efervescente sabor laranja (1000mg) 30 comp</string>
+    <string name="Agendametos">Agendamentos</string>
+    <string name="Descrition">Descreva como se sente</string>
+    <string name="searching2">O que você gostaria de agendar?</string>
+    <string name="textDoctors">Escolha o especialista</string>
+    <string name="categoryPressaoArterial">Medidor de pressão arterial</string>
+    <string name="categoryPrevinirInfarto">Previnir Infarto</string>
+    <string name="categoryIdentificarInfarto">Identificar Infarto</string>
+    <string name="Coments">Comentários</string>
+    <string name="dicasMemoria">Potencialize Sua Memória </string>
+    <string name="coments_jose">HealthUp é o melhor amigo da minha saúde. Com ele, perdi peso, melhorei minha forma física e me sinto mais energizado do que nunca. Obrigado por tornar minha jornada de bem-estar tão positiva, HealthUp!</string>
+    <string name="comment_maria">O HealthUp tem sido meu companheiro constante na busca por uma vida mais saudável. Estou muito grata por suas funcionalidades e dicas que me ajudam a melhorar meu bem-estar. Obrigada, HealthUp!</string>
+    <string name="comment_carlos">O HealthUp é a minha principal fonte de informações e motivação para manter meu estilo de vida saudável. Estou impressionado com a facilidade de uso e a qualidade dos recursos. Obrigado, HealthUp, por cuidar da minha saúde!</string>
+    <string name="comment_laura">Não posso deixar de expressar minha gratidão ao HealthUp. Este aplicativo me ajudou a manter minha saúde em dia, desde o controle da minha dieta até os exercícios. Obrigada!</string>
+    <string name="exercicioRelaxamento">Exercício de Relaxamento </string>
+    <string name="exercicioRelaxamentoTexto">Respiração Profunda: Pratique respirações lentas e profundas.
+                    \n\n
+                    Yoga: Realize movimentos suaves de yoga.
+                    \n\n
+                    Tai Chi: Experimente exercícios de Tai Chi.
+                    \n\n
+                    Meditação Guiada: Siga meditações guiadas.</string>
+    <string name="sonoQualidade">Sono de Qualidade</string>
+    <string name="rotinaSonoTexto">Rotina de Sono: Mantenha uma rotina de sono regular.
+    \n\n
+    Ambiente Confortável: Crie um ambiente de sono confortável e escuro.
+    \n\n
+    Evite Eletrônicos: Evite eletrônicos antes de dormir.
+    \n\n
+    Relaxamento Pré-Sono: Pratique técnicas de relaxamento antes de dormir.</string>
+    <string name="atividadeFisica">Atividade Física</string>
+    <string name="atividadeFisicaTexto">Caminhada Diária: Faça uma caminhada curta todos os dias.
+    \n\n
+    Alongamento: Pratique exercícios simples de alongamento para manter a flexibilidade.
+    \n\n
+    Dança Leve: Dance ao som de músicas suaves em casa.
+    \n\n
+    Exercícios de Cadeira: Realize exercícios de cadeira para fortalecer músculos.</string>
+    <string name="atividadeCognitiva">Atividade Cognitiva</string>
+    <string name="exerciciosCognitivosTexto">Quebra-Cabeças: Resolva quebra-cabeças, como palavras cruzadas e quebra-cabeças numéricos.
+    \n\n
+    Aprenda Novas Palavras: Aprenda uma nova palavra ou frase em um idioma estrangeiro todos os dias.
+    \n\n
+    Memória Visual: Jogue jogos de memória visual, como "Combine os Pares".</string>
+    <string name="atividadeConcentracao">Técnicas de Concentração </string>
+    <string name="tecnicasConcentracaoTexto">Respire Fundo: Faça algumas respirações profundas para acalmar a mente e aumentar a concentração.
+    \n\n
+    Elimine Distrações: Identifique e elimine distrações, como telefones ou ruídos, do seu ambiente de trabalho.
+    \n\n
+    Organização: Mantenha seu espaço organizado, o que facilita a concentração.
+    \n\n
+    Defina Metas: Estabeleça metas claras e atingíveis para suas tarefas, o que ajuda a manter o foco.</string>
+    <string name="Help">Como podemos ajudar? </string>
+    <string name="chatMsg2">Mensagem enviada, aguarde a resposta </string>
+    <string name="chatMsg1">Digite sua mensagem</string>
+
+
+
+
 
 
 

@@ -2,6 +2,7 @@ package br.com.fiap.healthup.telas
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -88,6 +89,7 @@ fun Login(navController: NavController) {
                     painter = painterResource(id = R.drawable.leftchevron),
                     contentDescription = "Icon",
                     modifier = Modifier.size(24.dp)
+                        .clickable { navController.navigate("cadastro") }
                 )
 
                 Text(

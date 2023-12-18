@@ -4,6 +4,7 @@
     <string name="CreateAccount">Create Account</string>
     <string name="username">Username</string>
     <string name="name">Name</string>
+    <string name="address">Address</string>
     <string name="email">E-mail</string>
     <string name="password">Password</string>
     <string name="SIGNUP">SIGN UP</string>
@@ -11,6 +12,8 @@
     <string name="information">Remember Password</string>
     <string name="information2">Already Have a Account? Sign In</string>
     <string name="SIGNIN">SIGN IN</string>
+    <string name="ENTER">ENTER</string>
+    <string name="CANCEL">CANCEL</string>
     <string name="signIn">Sign in</string>
     <string name="LOGIN">LOGIN</string>
     <string name="login">Login</string>
@@ -26,7 +29,98 @@
     <string name="Comments">Comments</string>
     <string name="Profile">Profile</string>
     <string name="Historic">Historic</string>
-    <string name="ListofDoctors">List of Doctors</string>
+    <string name="ListofDoctors">Doctors</string>
+    <string name="Aerobics_category">Aerobics</string>
+    <string name="Bodybuilding_category">Bodybuilding</string>
+    <string name="Yoga_category">Yoga</string>
+    <string name="Meditation_category">Meditation</string>
+    <string name="EDIT_PROFILE">EDIT PROFILE</string>
+    <string name="Confirm_your_username">Confirm your username</string>
+    <string name="Confirm_your_name">Confirm your name </string>
+    <string name="Confirm_your_email">Confirm your e-mail</string>
+    <string name="Confirm_your_password">Confirm your password</string>
+    <string name="Confirm_your_address">Confirm your address</string>
+    <string name="Data_updated_successfully">Data updated successfully!</string>
+    <string name="Nordic_DietCategory">Nordic Diet</string>
+    <string name="Mind_DietCategory">Mind Diet</string>
+    <string name="Vegan_DietCategory">Vegan Diet</string>
+    <string name="Pescatarian_DietCategory">Pescatarian Diet</string>
+    <string name="Dash_DietCategory">Dash Diet</string>
+    <string name="Vegetarian_DietCategory">Vegetarian Diet</string>
+    <string name="ibuprofeno">Ibuprofen Legrand 100mg/mL, box with 1 drip bottle with 20mL</string>
+    <string name="paracetamol">Paracetamol 750mg 20 generic comp</string>
+    <string name="flaveno">Flavenos 500mg with 30 tablets</string>
+    <string name="tiamina">vitamin b1 thiamine 60 caps of 500mg unilife</string>
+    <string name="enterogermina">30comp Supplement Vitamin Mineral Enterogermina CDZSE Immunity Lavitan</string>
+    <string name="aspirina">Provita - orange flavor effervescent vitamin C pack (1000mg) 30 tablets</string>
+    <string name="Agendametos">Schedules</string>
+    <string name="Coments">Coments</string>
+    <string name="enviar">Send</string>
+    <string name="Descrition">Describe how you feel</string>
+    <string name="searching2">What would you like to schedule?</string>
+    <string name="textDoctors">Choose the expert</string>
+    <string name="categoryPressaoArterial">Heart rate meter</string>
+    <string name="categoryPrevinirInfarto">Prevent heart attack</string>
+    <string name="categoryIdentificarInfarto">identify heart attack</string>
+    <string name="dicasMemoria">Boost Your Memory </string>
+    <string name="coments_jose">HealthUp is my health\'s best friend. With it, I lost weight, improved my fitness, and feel more energized than ever. Thank you for making my wellness journey so positive, HealthUp!</string>
+    <string name="comment_maria">HealthUp has been my constant companion in the pursuit of a healthier life. I\'m very grateful for its features and tips that help me improve my well-being. Thank you, HealthUp!</string>
+    <string name="comment_carlos">HealthUp is my main source of information and motivation to maintain my healthy lifestyle. I\'m impressed with the ease of use and the quality of the features. Thank you, HealthUp, for taking care of my health!</string>
+    <string name="comment_laura">I can\'t help but express my gratitude to HealthUp. This app has helped me keep my health in check, from controlling my diet to exercising. Thanks!</string>
+    <string name="exercicioRelaxamento">Relaxation Exercise </string>
+    <string name="exercicioRelaxamentoTexto">Deep Breathing: Practice slow, deep breaths.
+            \n\n
+            Yoga: Perform gentle yoga movements.
+            \n\n
+            Tai Chi: Try Tai Chi exercises.
+            \n\n
+            Guided Meditation: Follow guided meditations.</string>
+    <string name="sonoQualidade">Quality Sleep </string>
+    <string name="rotinaSonoTexto">Sleep Routine: Maintain a regular sleep routine.
+    \n\n
+    Comfortable Environment: Create a comfortable and dark sleep environment.
+    \n\n
+    Avoid Electronics: Avoid electronics before bedtime.
+    \n\n
+    Pre-Sleep Relaxation: Practice relaxation techniques before sleep.</string>
+    <string name="atividadeFisica">Physical Activity</string>
+    <string name="atividadeFisicaTexto">Daily Walk: Take a short walk every day.
+    \n\n
+    Stretching: Practice simple stretching exercises to maintain flexibility.
+    \n\n
+    Light Dancing: Dance to the sound of gentle music at home.
+    \n\n
+    Chair Exercises: Perform chair exercises to strengthen muscles.</string>
+    <string name="atividadeCognitiva">Cognitive Exercises</string>
+    <string name="exerciciosCognitivosTexto">Puzzles: Solve puzzles, like crosswords and numerical puzzles.
+    \n\n
+    Learn New Words: Learn a new word or phrase in a foreign language every day.
+    \n\n
+    Visual Memory: Play visual memory games, such as "Match the Pairs".</string>
+    <string name="atividadeConcentracao">Concentration Techniques </string>
+    <string name="tecnicasConcentracaoTexto">Deep Breathing: Take a few deep breaths to calm your mind and increase concentration.
+    \n\n
+    Eliminate Distractions: Identify and remove distractions, such as phones or noise, from your workspace.
+    \n\n
+    Organization: Keep your space organized, which facilitates concentration.
+    \n\n
+    Set Goals: Set clear and achievable goals for your tasks, which helps maintain focus.</string>
+    <string name="Help">How can I help you ? </string>
+    <string name="chatMsg2">Message sent, wait for response</string>
+    <string name="chatMsg1">Type your message</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
